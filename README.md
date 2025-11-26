@@ -15,6 +15,10 @@ M³LungXAI is the first fully open-source multimodal explainable lung cancer dia
 - **Hardware Efficiency:** Runs on 2.0 GB VRAM with throughput of 36-290 samples/second
 - **Explainability:** Instance-level visualisations for clinical trust and verification
 
+## Demo
+
+![Demo Video](Demo.mp4)
+
 ## Repository Contents
 ~~~
 Deployment/
