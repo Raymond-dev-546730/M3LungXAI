@@ -1,3 +1,21 @@
+# M³LungXAI: Explainable Multimodal Lung Cancer Diagnosis
+
+This repository contains the complete implementation, training scripts, evaluation code, and deployment system from:
+
+> **"M³LungXAI: Deployable Explainable Multimodal Lung Cancer Diagnosis Through Late Fusion of CT, X-ray, and Clinical Symptoms"**  
+
+## Overview
+
+M³LungXAI is the first fully open-source multimodal explainable lung cancer diagnostic system that integrates CT imaging, chest X-ray, and clinical symptom extraction through a modular late fusion architecture. The system achieves high diagnostic performance while operating under real-world hardware constraints (2.0 GB VRAM), enabling deployment on standard clinical workstations in community hospitals without cloud dependencies.
+
+**Key Features:**
+- **CT Modality:** 95.88% accuracy, 99.63% ROC AUC (MobileNetV2)
+- **X-ray Modality:** 91.33% accuracy, 93.18% ROC AUC (Gradient Boosting ensemble)
+- **Symptom Modality:** 99.76% F1 score, 98.86% ROC AUC (SpanBERT NER)
+- **Hardware Efficiency:** Runs on 2.0 GB VRAM with throughput of 36-290 samples/second
+- **Explainability:** Instance-level visualisations for clinical trust and verification
+
+## Repository Contents
 ~~~
 Deployment/
 ├── DEPLOY_CT_SCAN.py                    # CT scan inference pipeline with LIME/Grad-CAM++ explainability
@@ -31,7 +49,7 @@ Models/
 │           ├── SqueezeNet 1.1 CT scan Terminal Logs.txt
 │           └── VGG19 CT scan Terminal Logs.txt
 │
-├── Xray_Modality/
+├── X-ray_Modality/
 │   ├── Scripts/
 │   │   ├── Inference_Evaluation/
 │   │   │   └── Ensemble_Model_CXR14_ROC.py             # Final ensemble ROC generation and hardware benchmarking
@@ -91,7 +109,7 @@ Models/
 │                   ├── RandomForest Engineered-features Ensemble CXR14 Terminal Logs.txt
 │                   └── SVM Engineered-features Ensemble CXR14 Terminal Logs.txt
 │
-└── Symptom_Modality/
+└── Symptom_Modality/ 
     ├── Scripts/
     │   ├── Inference_Evaluation/
     │   │   └── SM_ROC.py                               # ROC curve generation for token-level NER and hardware benchmarking
