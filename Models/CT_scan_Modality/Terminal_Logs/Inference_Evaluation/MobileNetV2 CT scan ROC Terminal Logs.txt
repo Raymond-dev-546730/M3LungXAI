@@ -1,0 +1,11 @@
+Micro-Averaged ROC curve saved to Micro-Average_ROC_Curve_CT_Scan.png
+Macro-Averaged ROC curve saved to Macro-Average_ROC_Curve_CT_Scan.png
+
+Hardware Efficiency Metrics
+--------------------------------------------------
+Hardware Constraints: 4 CPU cores, 2.0 GB VRAM
+Inference Time (ms):     3.447 ± 4.147
+VRAM Usage (MB):         25.74 ± 0.00
+Peak VRAM (MB):          28.99
+Model Size (MB):         8.63
+Throughput (samples/s):  290.08

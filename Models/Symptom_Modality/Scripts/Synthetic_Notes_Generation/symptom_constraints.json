@@ -1,0 +1,178 @@
+{
+  "Recurring lung infections": {
+    "recommendations": [
+      "Recommend a chest X-ray to check for signs of chronic infections or lung damage.",
+      "Order sputum culture to identify the causative organism.",
+      "Refer to a pulmonologist for further evaluation if recurrent infections persist."
+    ],
+    "avoid": ["generic antibiotics without identified cause"]
+  },
+  "Unexpected wheezing onset": {
+    "recommendations": [
+      "Perform spirometry or peak flow measurement to assess airflow obstruction.",
+      "Consider a trial of bronchodilators (e.g., albuterol).",
+      "Order a chest X-ray to rule out structural abnormalities."
+    ],
+    "avoid": ["steroids without diagnosing asthma or inflammation"]
+  },
+  "Hemoptysis": {
+    "recommendations": [
+      "Order a chest X-ray or CT scan to investigate potential causes (e.g., infection, malignancy).",
+      "Refer to a pulmonologist for further evaluation.",
+      "Request complete blood count and coagulation profile to rule out bleeding disorders."
+    ],
+    "avoid": ["antibiotics unless infection is confirmed"]
+  },
+  "Pleuritic chest pain": {
+    "recommendations": [
+      "Order a chest X-ray to rule out pleural effusion or pneumothorax.",
+      "Perform an ECG to exclude cardiac causes.",
+      "Prescribe NSAIDs for symptomatic relief if inflammation is confirmed."
+    ],
+    "avoid": ["opioids as first-line pain management"]
+  },
+  "Persistent worsening cough": {
+    "recommendations": [
+      "Request a chest X-ray to rule out infections or malignancy.",
+      "Consider testing for tuberculosis in high-risk populations.",
+      "Evaluate for asthma, GERD, or postnasal drip as potential causes."
+    ],
+    "avoid": ["cough suppressants without identifying underlying cause"]
+  },
+  "Hoarseness": {
+    "recommendations": [
+      "Recommend a laryngoscopy to examine the vocal cords.",
+      "Advise voice rest and hydration for symptomatic relief.",
+      "Refer to an ENT specialist if symptoms persist for more than two weeks."
+    ],
+    "avoid": ["antibiotics unless laryngitis is bacterial"]
+  },
+  "Dyspnea": {
+    "recommendations": [
+      "Perform spirometry to assess for obstructive or restrictive lung diseases.",
+      "Order a chest X-ray or CT scan to evaluate for pulmonary or cardiac causes.",
+      "Monitor oxygen saturation and provide supplemental oxygen if hypoxia is detected."
+    ],
+    "avoid": ["excessive physical exertion during episodes"]
+  },
+  "Extreme fatigue": {
+    "recommendations": [
+      "Order a complete blood count to check for anemia or infection.",
+      "Screen for hypothyroidism using TSH levels.",
+      "Evaluate for chronic fatigue syndrome if no other causes are identified."
+    ],
+    "avoid": ["stimulants without identifying the underlying cause"]
+  },
+  "Cervical/Axillary lymphadenopathy": {
+    "recommendations": [
+      "Perform a fine needle aspiration or biopsy for lymph nodes persisting over 4 weeks.",
+      "Order a complete blood count and peripheral smear to rule out hematological malignancies.",
+      "Consider imaging (e.g., ultrasound, CT) to evaluate the lymph node characteristics."
+    ],
+    "avoid": ["antibiotics unless infectious lymphadenopathy is suspected"]
+  },
+  "Swollen veins in the Neck & Chest": {
+    "recommendations": [
+      "Perform a CT angiography to evaluate for superior vena cava syndrome.",
+      "Assess for thoracic malignancies or large mediastinal masses.",
+      "Consider an echocardiogram to rule out cardiac causes."
+    ],
+    "avoid": ["diuretics without confirming fluid overload"]
+  },
+  "Headache": {
+    "recommendations": [
+      "Assess for red flags such as sudden onset, focal neurological signs, or worsening with Valsalva.",
+      "Suggest an MRI or CT scan if concerning features are present.",
+      "Treat migraines with triptans if diagnostic criteria are met."
+    ],
+    "avoid": ["routine opioids for headache management"]
+  },
+  "Facial and cervical edema": {
+    "recommendations": [
+      "Order a CT scan of the neck to evaluate for masses or lymphatic obstruction.",
+      "Consider testing for thyroid dysfunction (TSH, T4).",
+      "Assess for superior vena cava syndrome or venous obstruction."
+    ],
+    "avoid": ["empirical diuretics without a clear cause"]
+  },
+  "Loss of appetite": {
+    "recommendations": [
+      "Evaluate for gastrointestinal causes such as GERD or ulcers.",
+      "Screen for depression or anxiety contributing to appetite loss.",
+      "Consider a trial of appetite stimulants if no reversible cause is found."
+    ],
+    "avoid": ["force-feeding without addressing underlying issues"]
+  },
+  "Unexplained weight loss": {
+    "recommendations": [
+      "Order a comprehensive metabolic panel and thyroid function tests.",
+      "Evaluate for malignancies with imaging (e.g., CT or PET scan).",
+      "Screen for chronic infections such as tuberculosis or HIV."
+    ],
+    "avoid": ["nutritional supplements without identifying the underlying cause"]
+  },
+  "Bone pain": {
+    "recommendations": [
+      "Order imaging (e.g., X-ray, MRI) to assess for fractures, malignancies, or other abnormalities.",
+      "Evaluate for osteoporosis in at-risk populations.",
+      "Check calcium, phosphate, and vitamin D levels to rule out metabolic bone disease."
+    ],
+    "avoid": ["steroids unless inflammation or autoimmune causes are identified"]
+  },
+  "Hippocratic fingers": {
+    "recommendations": [
+      "Investigate for chronic hypoxia with pulse oximetry and arterial blood gas analysis.",
+      "Order a chest X-ray or CT scan to assess for interstitial lung disease or malignancies.",
+      "Refer to a pulmonologist or cardiologist based on findings."
+    ],
+    "avoid": ["empirical treatment without identifying cause"]
+  },
+  "Jaundice": {
+    "recommendations": [
+      "Order a liver function panel and ultrasound to evaluate for hepatic or biliary causes.",
+      "Screen for hemolytic anemia with a complete blood count and reticulocyte count.",
+      "Refer to a gastroenterologist for persistent or worsening jaundice."
+    ],
+    "avoid": ["empirical antibiotics unless infection is suspected"]
+  },
+  "Dysphagia": {
+    "recommendations": [
+      "Request a barium swallow or upper endoscopy to evaluate structural abnormalities.",
+      "Order a modified barium swallow if neurological causes are suspected.",
+      "Refer to a speech therapist for swallowing rehabilitation if indicated."
+    ],
+    "avoid": ["antibiotics unless infection is suspected"]
+  },
+  "Ptosis": {
+    "recommendations": [
+      "Perform a neurological exam to rule out Horner's syndrome or myasthenia gravis.",
+      "Order imaging (e.g., MRI or CT) to assess for cranial nerve abnormalities.",
+      "Refer to a neurologist for persistent or worsening ptosis."
+    ],
+    "avoid": ["empirical steroids without diagnosis"]
+  },
+  "Ipsilateral Anhidrosis": {
+    "recommendations": [
+      "Evaluate for Horner's syndrome with a thorough neurological and ophthalmological exam.",
+      "Order imaging of the neck and thorax to assess for nerve compression or damage.",
+      "Refer to a neurologist for further evaluation."
+    ],
+    "avoid": ["empirical antiperspirants without cause identification"]
+  },
+  "New-onset seizures": {
+    "recommendations": [
+      "Order an MRI of the brain and EEG to evaluate for structural or electrical abnormalities.",
+      "Screen for metabolic causes (e.g., hypoglycemia, electrolyte imbalance).",
+      "Refer to a neurologist for long-term management."
+    ],
+    "avoid": ["empirical anticonvulsants without diagnostic workup"]
+  },
+  "Ipsilateral Miosis": {
+    "recommendations": [
+      "Evaluate for Horner's syndrome with imaging of the neck and thorax.",
+      "Perform a neurological exam to assess for additional cranial nerve deficits.",
+      "Refer to a neurologist for further assessment."
+    ],
+    "avoid": ["empirical dilation drops without diagnosis"]
+  }
+}

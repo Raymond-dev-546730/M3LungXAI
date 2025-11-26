@@ -1,0 +1,88 @@
+Loading CNN models...
+Top-3 Models: GB Base, MLP Base, GB Engineered
+Method: Simple average of OOF probabilities
+
+Fold 1/5
+--------------------------------------------------
+Getting CNN predictions on training set...
+Getting CNN predictions on validation set...
+
+Training Model 1/3: Gradient Boosting (Base)
+Training Model 2/3: MLP (Base)
+Training Model 3/3: Gradient Boosting (Engineered)
+
+Fold 1 Metrics:
+AUC: 0.9254
+F1 Score: 0.7830
+Optimal Threshold: 0.708
+
+Fold 2/5
+--------------------------------------------------
+Getting CNN predictions on training set...
+Getting CNN predictions on validation set...
+
+Training Model 1/3: Gradient Boosting (Base)
+Training Model 2/3: MLP (Base)
+Training Model 3/3: Gradient Boosting (Engineered)
+
+Fold 2 Metrics:
+AUC: 0.9272
+F1 Score: 0.7788
+Optimal Threshold: 0.685
+
+Fold 3/5
+--------------------------------------------------
+Getting CNN predictions on training set...
+Getting CNN predictions on validation set...
+
+Training Model 1/3: Gradient Boosting (Base)
+Training Model 2/3: MLP (Base)
+Training Model 3/3: Gradient Boosting (Engineered)
+
+Fold 3 Metrics:
+AUC: 0.9296
+F1 Score: 0.7771
+Optimal Threshold: 0.674
+
+Fold 4/5
+--------------------------------------------------
+Getting CNN predictions on training set...
+Getting CNN predictions on validation set...
+
+Training Model 1/3: Gradient Boosting (Base)
+Training Model 2/3: MLP (Base)
+Training Model 3/3: Gradient Boosting (Engineered)
+
+Fold 4 Metrics:
+AUC: 0.9298
+F1 Score: 0.7793
+Optimal Threshold: 0.700
+
+Fold 5/5
+--------------------------------------------------
+Getting CNN predictions on training set...
+Getting CNN predictions on validation set...
+
+Training Model 1/3: Gradient Boosting (Base)
+Training Model 2/3: MLP (Base)
+Training Model 3/3: Gradient Boosting (Engineered)
+
+Fold 5 Metrics:
+AUC: 0.9336
+F1 Score: 0.7938
+Optimal Threshold: 0.698
+Average Cross-Validation Results:
+--------------------------------------------------
+Average AUC: 0.9291 ± 0.0028
+Average F1 Score: 0.7824 ± 0.0060
+Average Precision: 0.7712 ± 0.0043
+Average Recall: 0.7953 ± 0.0107
+Average Accuracy: 0.9219 ± 0.0016
+Training final models on full train+val set...
+Final optimal threshold: 0.696
+
+Test AUC: 0.9323
+Test F1: 0.7692
+Test Precision: 0.7508
+Test Recall: 0.7920
+Test Accuracy: 0.9141

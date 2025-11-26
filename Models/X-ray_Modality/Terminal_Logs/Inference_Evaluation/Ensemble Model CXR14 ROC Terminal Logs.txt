@@ -1,0 +1,15 @@
+Progress: 10000/66692
+Progress: 20000/66692
+Progress: 30000/66692
+Progress: 40000/66692
+Progress: 50000/66692
+Progress: 60000/66692
+
+Hardware Efficiency Metrics
+--------------------------------------------------
+Hardware Constraints: 4 CPU cores, 2.0 GB VRAM
+Inference Time (ms):     25.245 ± 2.702
+VRAM Usage (MB):         266.80 ± 0.00
+Peak VRAM (MB):          279.98
+Model Size (MB):         253.37
+Throughput (samples/s):  39.61

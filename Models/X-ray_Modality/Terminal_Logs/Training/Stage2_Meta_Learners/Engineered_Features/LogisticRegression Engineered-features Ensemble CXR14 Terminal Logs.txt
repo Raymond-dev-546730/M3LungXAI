@@ -1,0 +1,104 @@
+Loading CNN models...
+
+Fold 1/5
+----------
+Getting CNN predictions on training set...
+Getting CNN predictions on validation set...
+Running GridSearchCV for hyperparameter tuning...
+Fitting 3 folds for each of 12 candidates, totalling 36 fits
+Best hyperparameters: {'C': 0.1, 'penalty': 'l1', 'solver': 'liblinear'}
+Best CV AUC score: 0.9293
+Optimizing F1 threshold on training set...
+Optimal threshold: 0.139 (Train F1: 0.7803)
+Fold 1 Metrics:
+AUC: 0.9241
+F1 Score: 0.7796
+Precision: 0.7753
+Recall: 0.7840
+Accuracy: 0.9230
+
+Fold 2/5
+----------
+Getting CNN predictions on training set...
+Getting CNN predictions on validation set...
+Running GridSearchCV for hyperparameter tuning...
+Fitting 3 folds for each of 12 candidates, totalling 36 fits
+Best hyperparameters: {'C': 0.1, 'penalty': 'l1', 'solver': 'liblinear'}
+Best CV AUC score: 0.9287
+Optimizing F1 threshold on training set...
+Optimal threshold: 0.140 (Train F1: 0.7807)
+Fold 2 Metrics:
+AUC: 0.9265
+F1 Score: 0.7776
+Precision: 0.7713
+Recall: 0.7844
+Accuracy: 0.9217
+
+Fold 3/5
+----------
+Getting CNN predictions on training set...
+Getting CNN predictions on validation set...
+Running GridSearchCV for hyperparameter tuning...
+Fitting 3 folds for each of 12 candidates, totalling 36 fits
+Best hyperparameters: {'C': 0.1, 'penalty': 'l1', 'solver': 'liblinear'}
+Best CV AUC score: 0.9279
+Optimizing F1 threshold on training set...
+Optimal threshold: 0.145 (Train F1: 0.7816)
+Fold 3 Metrics:
+AUC: 0.9291
+F1 Score: 0.7771
+Precision: 0.7763
+Recall: 0.7780
+Accuracy: 0.9232
+
+Fold 4/5
+----------
+Getting CNN predictions on training set...
+Getting CNN predictions on validation set...
+Running GridSearchCV for hyperparameter tuning...
+Fitting 3 folds for each of 12 candidates, totalling 36 fits
+Best hyperparameters: {'C': 0.1, 'penalty': 'l1', 'solver': 'liblinear'}
+Best CV AUC score: 0.9280
+Optimizing F1 threshold on training set...
+Optimal threshold: 0.140 (Train F1: 0.7805)
+Fold 4 Metrics:
+AUC: 0.9289
+F1 Score: 0.7759
+Precision: 0.7711
+Recall: 0.7810
+Accuracy: 0.9216
+
+Fold 5/5
+----------
+Getting CNN predictions on training set...
+Getting CNN predictions on validation set...
+Running GridSearchCV for hyperparameter tuning...
+Fitting 3 folds for each of 12 candidates, totalling 36 fits
+Best hyperparameters: {'C': 0.1, 'penalty': 'l1', 'solver': 'liblinear'}
+Best CV AUC score: 0.9272
+Optimizing F1 threshold on training set...
+Optimal threshold: 0.140 (Train F1: 0.7780)
+Fold 5 Metrics:
+AUC: 0.9325
+F1 Score: 0.7872
+Precision: 0.7841
+Recall: 0.7903
+Accuracy: 0.9260
+Average Cross-Validation Results:
+--------------------------------------------------
+Average AUC: 0.9282 ± 0.0028
+Average F1 Score: 0.7795 ± 0.0040
+Average Precision: 0.7756 ± 0.0047
+Average Recall: 0.7835 ± 0.0041
+Average Accuracy: 0.9231 ± 0.0016
+Evaluating on the test set...
+Fitting 3 folds for each of 12 candidates, totalling 36 fits
+Best hyperparameters: {'C': 0.1, 'penalty': 'l1', 'solver': 'liblinear'}
+Best CV AUC score: 0.9283
+Final optimal threshold: 0.139
+
+Test AUC: 0.9317
+Test F1: 0.7680
+Test Precision: 0.7663
+Test Recall: 0.7697
+Test Accuracy: 0.9198

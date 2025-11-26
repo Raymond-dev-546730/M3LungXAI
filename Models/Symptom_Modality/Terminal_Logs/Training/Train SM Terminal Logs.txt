@@ -1,0 +1,237 @@
+Fold 1/3
+--------------------------------------------------
+pytorch_model.bin: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 665M/665M [00:03<00:00, 206MB/s]
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at SpanBERT/spanbert-large-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+model.safetensors:   0%|                                                                                                                    | 0.00/665M [00:00<?, ?B/s]
+Epoch 1/3
+----------
+
+Train
+model.safetensors: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 665M/665M [00:02<00:00, 233MB/s]
+Batch 50/355 - Average Loss: 0.1990
+Batch 100/355 - Average Loss: 0.1650
+Batch 150/355 - Average Loss: 0.1376
+Batch 200/355 - Average Loss: 0.1128
+Batch 250/355 - Average Loss: 0.0960
+Batch 300/355 - Average Loss: 0.0848
+Batch 350/355 - Average Loss: 0.0754
+Train Metrics:
+Precision: 0.9742, Recall: 0.9766, F1-Score: 0.9748, Accuracy: 0.9766, ROC-AUC: 0.9373
+
+Validation
+Batch 50/178 - Average Loss: 0.0140
+Batch 100/178 - Average Loss: 0.0146
+Batch 150/178 - Average Loss: 0.0148
+Validation Metrics:
+Precision: 0.9970, Recall: 0.9970, F1-Score: 0.9970, Accuracy: 0.9970, ROC-AUC: 0.9931
+
+Epoch 2/3
+----------
+
+Train
+Batch 50/355 - Average Loss: 0.0179
+Batch 100/355 - Average Loss: 0.0170
+Batch 150/355 - Average Loss: 0.0170
+Batch 200/355 - Average Loss: 0.0169
+Batch 250/355 - Average Loss: 0.0168
+Batch 300/355 - Average Loss: 0.0164
+Batch 350/355 - Average Loss: 0.0162
+Train Metrics:
+Precision: 0.9969, Recall: 0.9969, F1-Score: 0.9969, Accuracy: 0.9969, ROC-AUC: 0.9785
+
+Validation
+Batch 50/178 - Average Loss: 0.0137
+Batch 100/178 - Average Loss: 0.0142
+Batch 150/178 - Average Loss: 0.0145
+Validation Metrics:
+Precision: 0.9971, Recall: 0.9970, F1-Score: 0.9971, Accuracy: 0.9970, ROC-AUC: 0.9900
+
+Epoch 3/3
+----------
+
+Train
+Batch 50/355 - Average Loss: 0.0152
+Batch 100/355 - Average Loss: 0.0155
+Batch 150/355 - Average Loss: 0.0153
+Batch 200/355 - Average Loss: 0.0152
+Batch 250/355 - Average Loss: 0.0154
+Batch 300/355 - Average Loss: 0.0150
+Batch 350/355 - Average Loss: 0.0144
+Train Metrics:
+Precision: 0.9970, Recall: 0.9970, F1-Score: 0.9970, Accuracy: 0.9970, ROC-AUC: 0.9788
+
+Validation
+Batch 50/178 - Average Loss: 0.0111
+Batch 100/178 - Average Loss: 0.0118
+Batch 150/178 - Average Loss: 0.0120
+Validation Metrics:
+Precision: 0.9973, Recall: 0.9973, F1-Score: 0.9973, Accuracy: 0.9973, ROC-AUC: 0.9896
+
+Evaluating Fold 1 on Test Set
+
+Validation
+Batch 50/94 - Average Loss: 0.0095
+Validation Metrics:
+Precision: 0.9976, Recall: 0.9976, F1-Score: 0.9976, Accuracy: 0.9976, ROC-AUC: 0.9882
+Fold 2/3
+--------------------------------------------------
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at SpanBERT/spanbert-large-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Epoch 1/3
+----------
+
+Train
+Batch 50/355 - Average Loss: 0.2059
+Batch 100/355 - Average Loss: 0.1660
+Batch 150/355 - Average Loss: 0.1364
+Batch 200/355 - Average Loss: 0.1110
+Batch 250/355 - Average Loss: 0.0957
+Batch 300/355 - Average Loss: 0.0832
+Batch 350/355 - Average Loss: 0.0741
+Train Metrics:
+Precision: 0.9725, Recall: 0.9745, F1-Score: 0.9733, Accuracy: 0.9745, ROC-AUC: 0.9460
+
+Validation
+Batch 50/178 - Average Loss: 0.0173
+Batch 100/178 - Average Loss: 0.0167
+Batch 150/178 - Average Loss: 0.0167
+Validation Metrics:
+Precision: 0.9969, Recall: 0.9969, F1-Score: 0.9969, Accuracy: 0.9969, ROC-AUC: 0.9825
+
+Epoch 2/3
+----------
+
+Train
+Batch 50/355 - Average Loss: 0.0194
+Batch 100/355 - Average Loss: 0.0188
+Batch 150/355 - Average Loss: 0.0190
+Batch 200/355 - Average Loss: 0.0179
+Batch 250/355 - Average Loss: 0.0172
+Batch 300/355 - Average Loss: 0.0171
+Batch 350/355 - Average Loss: 0.0169
+Train Metrics:
+Precision: 0.9969, Recall: 0.9969, F1-Score: 0.9969, Accuracy: 0.9969, ROC-AUC: 0.9782
+
+Validation
+Batch 50/178 - Average Loss: 0.0168
+Batch 100/178 - Average Loss: 0.0162
+Batch 150/178 - Average Loss: 0.0161
+Validation Metrics:
+Precision: 0.9970, Recall: 0.9969, F1-Score: 0.9969, Accuracy: 0.9969, ROC-AUC: 0.9777
+
+Epoch 3/3
+----------
+
+Train
+Batch 50/355 - Average Loss: 0.0193
+Batch 100/355 - Average Loss: 0.0167
+Batch 150/355 - Average Loss: 0.0164
+Batch 200/355 - Average Loss: 0.0157
+Batch 250/355 - Average Loss: 0.0154
+Batch 300/355 - Average Loss: 0.0147
+Batch 350/355 - Average Loss: 0.0145
+Train Metrics:
+Precision: 0.9971, Recall: 0.9971, F1-Score: 0.9971, Accuracy: 0.9971, ROC-AUC: 0.9814
+
+Validation
+Batch 50/178 - Average Loss: 0.0140
+Batch 100/178 - Average Loss: 0.0133
+Batch 150/178 - Average Loss: 0.0132
+Validation Metrics:
+Precision: 0.9973, Recall: 0.9973, F1-Score: 0.9973, Accuracy: 0.9973, ROC-AUC: 0.9838
+
+Evaluating Fold 2 on Test Set
+
+Validation
+Batch 50/94 - Average Loss: 0.0095
+Validation Metrics:
+Precision: 0.9977, Recall: 0.9977, F1-Score: 0.9977, Accuracy: 0.9977, ROC-AUC: 0.9876
+Fold 3/3
+--------------------------------------------------
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at SpanBERT/spanbert-large-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Epoch 1/3
+----------
+
+Train
+Batch 50/355 - Average Loss: 0.2092
+Batch 100/355 - Average Loss: 0.1710
+Batch 150/355 - Average Loss: 0.1581
+Batch 200/355 - Average Loss: 0.1515
+Batch 250/355 - Average Loss: 0.1446
+Batch 300/355 - Average Loss: 0.1341
+Batch 350/355 - Average Loss: 0.1222
+Train Metrics:
+Precision: 0.9420, Recall: 0.9588, F1-Score: 0.9487, Accuracy: 0.9588, ROC-AUC: 0.7891
+
+Validation
+Batch 50/178 - Average Loss: 0.0331
+Batch 100/178 - Average Loss: 0.0336
+Batch 150/178 - Average Loss: 0.0328
+Validation Metrics:
+Precision: 0.9906, Recall: 0.9891, F1-Score: 0.9896, Accuracy: 0.9891, ROC-AUC: 0.9762
+
+Epoch 2/3
+----------
+
+Train
+Batch 50/355 - Average Loss: 0.0290
+Batch 100/355 - Average Loss: 0.0253
+Batch 150/355 - Average Loss: 0.0245
+Batch 200/355 - Average Loss: 0.0250
+Batch 250/355 - Average Loss: 0.0249
+Batch 300/355 - Average Loss: 0.0256
+Batch 350/355 - Average Loss: 0.0250
+Train Metrics:
+Precision: 0.9946, Recall: 0.9947, F1-Score: 0.9946, Accuracy: 0.9947, ROC-AUC: 0.9673
+
+Validation
+Batch 50/178 - Average Loss: 0.0184
+Batch 100/178 - Average Loss: 0.0193
+Batch 150/178 - Average Loss: 0.0186
+Validation Metrics:
+Precision: 0.9957, Recall: 0.9958, F1-Score: 0.9957, Accuracy: 0.9958, ROC-AUC: 0.9843
+
+Epoch 3/3
+----------
+
+Train
+Batch 50/355 - Average Loss: 0.0174
+Batch 100/355 - Average Loss: 0.0186
+Batch 150/355 - Average Loss: 0.0175
+Batch 200/355 - Average Loss: 0.0175
+Batch 250/355 - Average Loss: 0.0165
+Batch 300/355 - Average Loss: 0.0159
+Batch 350/355 - Average Loss: 0.0160
+Train Metrics:
+Precision: 0.9966, Recall: 0.9966, F1-Score: 0.9966, Accuracy: 0.9966, ROC-AUC: 0.9807
+
+Validation
+Batch 50/178 - Average Loss: 0.0154
+Batch 100/178 - Average Loss: 0.0164
+Batch 150/178 - Average Loss: 0.0157
+Validation Metrics:
+Precision: 0.9968, Recall: 0.9968, F1-Score: 0.9968, Accuracy: 0.9968, ROC-AUC: 0.9866
+
+Evaluating Fold 3 on Test Set
+
+Validation
+Batch 50/94 - Average Loss: 0.0111
+Validation Metrics:
+Precision: 0.9974, Recall: 0.9974, F1-Score: 0.9974, Accuracy: 0.9974, ROC-AUC: 0.9901
+
+Average Metrics for Test Set
+Precision: 0.9976 ± 0.0002
+Recall: 0.9976 ± 0.0002
+F1-Score: 0.9976 ± 0.0002
+Accuracy: 0.9976 ± 0.0002
+ROC-AUC: 0.9886 ± 0.0010
+
+Best model selected from Fold 2 based on validation performance:
+Validation F1-Score: 0.9973
+Validation ROC-AUC: 0.9838
+
+Saving best model from Fold 2

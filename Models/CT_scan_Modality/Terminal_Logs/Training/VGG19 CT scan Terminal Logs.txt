@@ -1,0 +1,521 @@
+Starting cross-validation...
+Fold 1/5
+Epoch 0/24
+----------
+train Loss: 0.9392 Acc: 0.5194 AUC: 0.7781 Recall: 0.4986 Precision: 0.4951 F1: 0.4836
+val Loss: 1.3781 Acc: 0.4194 AUC: 0.8690 Recall: 0.5422 Precision: 0.4800 F1: 0.3785
+Epoch 1/24
+----------
+train Loss: 0.7888 Acc: 0.5663 AUC: 0.8082 Recall: 0.5592 Precision: 0.5481 F1: 0.5435
+val Loss: 0.8845 Acc: 0.5806 AUC: 0.8718 Recall: 0.5125 Precision: 0.5692 F1: 0.4074
+Epoch 2/24
+----------
+train Loss: 0.7757 Acc: 0.5356 AUC: 0.8065 Recall: 0.5323 Precision: 0.5759 F1: 0.5133
+val Loss: 1.8863 Acc: 0.5613 AUC: 0.8763 Recall: 0.6244 Precision: 0.5303 F1: 0.5069
+Epoch 3/24
+----------
+train Loss: 1.0600 Acc: 0.4951 AUC: 0.7692 Recall: 0.5135 Precision: 0.5183 F1: 0.5045
+val Loss: 1.2965 Acc: 0.5484 AUC: 0.8084 Recall: 0.4902 Precision: 0.3031 F1: 0.3703
+Epoch 4/24
+----------
+train Loss: 2.0109 Acc: 0.3948 AUC: 0.6460 Recall: 0.3949 Precision: 0.3807 F1: 0.3764
+val Loss: 1.3698 Acc: 0.3290 AUC: 0.6892 Recall: 0.2500 Precision: 0.0823 F1: 0.1238
+Epoch 5/24
+----------
+train Loss: 1.4277 Acc: 0.2411 AUC: 0.5476 Recall: 0.2664 Precision: 0.1703 F1: 0.1627
+val Loss: 1.3876 Acc: 0.0452 AUC: 0.5441 Recall: 0.0375 Precision: 0.0449 F1: 0.0331
+Epoch 6/24
+----------
+train Loss: 1.3735 Acc: 0.2201 AUC: 0.5298 Recall: 0.2223 Precision: 0.2138 F1: 0.1998
+val Loss: 1.3849 Acc: 0.4774 AUC: 0.7535 Recall: 0.4179 Precision: 0.3291 F1: 0.3435
+Epoch 7/24
+----------
+train Loss: 1.6371 Acc: 0.3641 AUC: 0.5994 Recall: 0.3756 Precision: 0.2607 F1: 0.2922
+val Loss: 1.3522 Acc: 0.3290 AUC: 0.5809 Recall: 0.2500 Precision: 0.0823 F1: 0.1238
+Epoch 8/24
+----------
+train Loss: 1.3769 Acc: 0.3058 AUC: 0.5441 Recall: 0.2963 Precision: 0.1711 F1: 0.2028
+val Loss: 1.2892 Acc: 0.3290 AUC: 0.6358 Recall: 0.2500 Precision: 0.0823 F1: 0.1238
+Epoch 9/24
+----------
+train Loss: 1.3769 Acc: 0.2621 AUC: 0.5758 Recall: 0.2695 Precision: 0.1679 F1: 0.1751
+val Loss: 1.2905 Acc: 0.2323 AUC: 0.7375 Recall: 0.2500 Precision: 0.0581 F1: 0.0942
+Epoch 10/24
+----------
+train Loss: 1.3230 Acc: 0.3641 AUC: 0.6247 Recall: 0.3764 Precision: 0.3711 F1: 0.2686
+val Loss: 1.1082 Acc: 0.5484 AUC: 0.6718 Recall: 0.4902 Precision: 0.3020 F1: 0.3693
+Epoch 11/24
+----------
+train Loss: 1.0389 Acc: 0.4126 AUC: 0.7140 Recall: 0.4228 Precision: 0.3944 F1: 0.3670
+val Loss: 1.7607 Acc: 0.5484 AUC: 0.7037 Recall: 0.4902 Precision: 0.3020 F1: 0.3693
+Epoch 12/24
+----------
+train Loss: 0.9616 Acc: 0.4369 AUC: 0.7341 Recall: 0.4409 Precision: 0.4158 F1: 0.3814
+val Loss: 1.2529 Acc: 0.5355 AUC: 0.7277 Recall: 0.4804 Precision: 0.3005 F1: 0.3659
+Epoch 13/24
+----------
+train Loss: 0.8486 Acc: 0.4790 AUC: 0.7544 Recall: 0.4823 Precision: 0.4635 F1: 0.4172
+val Loss: 1.6007 Acc: 0.5484 AUC: 0.6938 Recall: 0.4902 Precision: 0.3020 F1: 0.3693
+Epoch 14/24
+----------
+train Loss: 1.0249 Acc: 0.4693 AUC: 0.7010 Recall: 0.4739 Precision: 0.3796 F1: 0.3816
+val Loss: 1.3700 Acc: 0.5484 AUC: 0.7086 Recall: 0.4902 Precision: 0.3020 F1: 0.3693
+Epoch 15/24
+----------
+train Loss: 0.9187 Acc: 0.4757 AUC: 0.7333 Recall: 0.4908 Precision: 0.6217 F1: 0.3837
+val Loss: 1.0454 Acc: 0.5484 AUC: 0.7311 Recall: 0.4902 Precision: 0.3020 F1: 0.3693
+Epoch 16/24
+----------
+train Loss: 0.8536 Acc: 0.5032 AUC: 0.7432 Recall: 0.5043 Precision: 0.4105 F1: 0.4497
+val Loss: 1.1408 Acc: 0.2839 AUC: 0.7429 Recall: 0.5000 Precision: 0.2062 F1: 0.2491
+Epoch 17/24
+----------
+train Loss: 0.8426 Acc: 0.5146 AUC: 0.7440 Recall: 0.5099 Precision: 0.4938 F1: 0.4295
+val Loss: 1.0584 Acc: 0.5484 AUC: 0.7672 Recall: 0.4902 Precision: 0.3020 F1: 0.3693
+Epoch 18/24
+----------
+train Loss: 0.8060 Acc: 0.5259 AUC: 0.7751 Recall: 0.5045 Precision: 0.5182 F1: 0.4077
+val Loss: 1.1653 Acc: 0.5484 AUC: 0.7737 Recall: 0.4902 Precision: 0.3020 F1: 0.3693
+Epoch 19/24
+----------
+train Loss: 0.8185 Acc: 0.4951 AUC: 0.7776 Recall: 0.4892 Precision: 0.4205 F1: 0.3721
+val Loss: 0.9693 Acc: 0.5484 AUC: 0.7284 Recall: 0.4902 Precision: 0.3020 F1: 0.3693
+Epoch 20/24
+----------
+train Loss: 0.8250 Acc: 0.4757 AUC: 0.7480 Recall: 0.4812 Precision: 0.4392 F1: 0.3993
+val Loss: 1.0159 Acc: 0.5484 AUC: 0.7283 Recall: 0.4902 Precision: 0.3020 F1: 0.3693
+Epoch 21/24
+----------
+train Loss: 0.7779 Acc: 0.5016 AUC: 0.7660 Recall: 0.4914 Precision: 0.4876 F1: 0.3976
+val Loss: 1.0925 Acc: 0.5484 AUC: 0.7422 Recall: 0.4902 Precision: 0.3020 F1: 0.3693
+Epoch 22/24
+----------
+train Loss: 0.7719 Acc: 0.5146 AUC: 0.7758 Recall: 0.4960 Precision: 0.4063 F1: 0.4006
+val Loss: 1.1073 Acc: 0.5484 AUC: 0.7451 Recall: 0.4902 Precision: 0.3031 F1: 0.3703
+Epoch 23/24
+----------
+train Loss: 0.7721 Acc: 0.4984 AUC: 0.7739 Recall: 0.4919 Precision: 0.3976 F1: 0.3950
+val Loss: 1.1019 Acc: 0.5484 AUC: 0.7458 Recall: 0.4902 Precision: 0.3020 F1: 0.3693
+Epoch 24/24
+----------
+train Loss: 0.8490 Acc: 0.4790 AUC: 0.7649 Recall: 0.4964 Precision: 0.3916 F1: 0.3941
+val Loss: 1.1002 Acc: 0.5484 AUC: 0.7457 Recall: 0.4902 Precision: 0.3020 F1: 0.3693
+Training complete in 0m 60s
+Best val F1: 0.5069
+Fold 2/5
+Epoch 0/24
+----------
+train Loss: 1.1295 Acc: 0.4579 AUC: 0.7198 Recall: 0.4771 Precision: 0.4530 F1: 0.4484
+val Loss: 1.6279 Acc: 0.2839 AUC: 0.8273 Recall: 0.5044 Precision: 0.3400 F1: 0.3252
+Epoch 1/24
+----------
+train Loss: 0.8995 Acc: 0.5405 AUC: 0.7874 Recall: 0.5231 Precision: 0.5372 F1: 0.4856
+val Loss: 1.0589 Acc: 0.4387 AUC: 0.9010 Recall: 0.7050 Precision: 0.3599 F1: 0.4412
+Epoch 2/24
+----------
+train Loss: 0.9043 Acc: 0.5405 AUC: 0.7892 Recall: 0.5453 Precision: 0.5531 F1: 0.5134
+val Loss: 0.8130 Acc: 0.6452 AUC: 0.8286 Recall: 0.5829 Precision: 0.5482 F1: 0.5511
+Epoch 3/24
+----------
+train Loss: 0.8577 Acc: 0.5388 AUC: 0.7939 Recall: 0.5425 Precision: 0.5301 F1: 0.5139
+val Loss: 1.0704 Acc: 0.3677 AUC: 0.8817 Recall: 0.6100 Precision: 0.4610 F1: 0.4262
+Epoch 4/24
+----------
+train Loss: 1.4507 Acc: 0.3770 AUC: 0.6464 Recall: 0.3746 Precision: 0.3789 F1: 0.3439
+val Loss: 1.3872 Acc: 0.1613 AUC: 0.5901 Recall: 0.2500 Precision: 0.0403 F1: 0.0694
+Epoch 5/24
+----------
+train Loss: 1.4838 Acc: 0.2540 AUC: 0.5547 Recall: 0.2503 Precision: 0.1863 F1: 0.1847
+val Loss: 1.2927 Acc: 0.2452 AUC: 0.7623 Recall: 0.2325 Precision: 0.2036 F1: 0.1484
+Epoch 6/24
+----------
+train Loss: 1.4904 Acc: 0.2460 AUC: 0.5298 Recall: 0.2626 Precision: 0.2088 F1: 0.1958
+val Loss: 1.3933 Acc: 0.1613 AUC: 0.5000 Recall: 0.2500 Precision: 0.0403 F1: 0.0694
+Epoch 7/24
+----------
+train Loss: 1.3967 Acc: 0.2460 AUC: 0.4993 Recall: 0.2550 Precision: 0.1239 F1: 0.1329
+val Loss: 1.4020 Acc: 0.1613 AUC: 0.5000 Recall: 0.2500 Precision: 0.0403 F1: 0.0694
+Epoch 8/24
+----------
+train Loss: 1.3770 Acc: 0.2654 AUC: 0.4902 Recall: 0.2500 Precision: 0.0663 F1: 0.1049
+val Loss: 1.4114 Acc: 0.1613 AUC: 0.5010 Recall: 0.2500 Precision: 0.0403 F1: 0.0694
+Epoch 9/24
+----------
+train Loss: 1.3720 Acc: 0.2621 AUC: 0.4738 Recall: 0.2500 Precision: 0.0655 F1: 0.1038
+val Loss: 1.4235 Acc: 0.1613 AUC: 0.4372 Recall: 0.2500 Precision: 0.0403 F1: 0.0694
+Epoch 10/24
+----------
+train Loss: 1.3618 Acc: 0.2799 AUC: 0.4912 Recall: 0.2500 Precision: 0.0700 F1: 0.1094
+val Loss: 1.4382 Acc: 0.1613 AUC: 0.3897 Recall: 0.2500 Precision: 0.0403 F1: 0.0694
+Epoch 11/24
+----------
+train Loss: 1.3666 Acc: 0.2427 AUC: 0.4923 Recall: 0.2500 Precision: 0.0607 F1: 0.0977
+val Loss: 1.4505 Acc: 0.1613 AUC: 0.5000 Recall: 0.2500 Precision: 0.0403 F1: 0.0694
+Epoch 12/24
+----------
+train Loss: 1.3710 Acc: 0.2411 AUC: 0.4754 Recall: 0.2500 Precision: 0.0603 F1: 0.0971
+val Loss: 1.4600 Acc: 0.1613 AUC: 0.5226 Recall: 0.2500 Precision: 0.0403 F1: 0.0694
+Epoch 13/24
+----------
+train Loss: 1.3572 Acc: 0.2605 AUC: 0.4804 Recall: 0.2500 Precision: 0.0651 F1: 0.1033
+val Loss: 1.4671 Acc: 0.1613 AUC: 0.6329 Recall: 0.2500 Precision: 0.0403 F1: 0.0694
+Epoch 14/24
+----------
+train Loss: 1.3504 Acc: 0.2524 AUC: 0.4956 Recall: 0.2500 Precision: 0.0631 F1: 0.1008
+val Loss: 1.4762 Acc: 0.1613 AUC: 0.5000 Recall: 0.2500 Precision: 0.0403 F1: 0.0694
+Epoch 15/24
+----------
+train Loss: 1.3561 Acc: 0.2524 AUC: 0.5079 Recall: 0.2500 Precision: 0.0631 F1: 0.1008
+val Loss: 1.4843 Acc: 0.1613 AUC: 0.5000 Recall: 0.2500 Precision: 0.0403 F1: 0.0694
+Epoch 16/24
+----------
+train Loss: 1.3643 Acc: 0.2395 AUC: 0.5307 Recall: 0.2483 Precision: 0.0601 F1: 0.0967
+val Loss: 1.4901 Acc: 0.1613 AUC: 0.6329 Recall: 0.2500 Precision: 0.0403 F1: 0.0694
+Epoch 17/24
+----------
+train Loss: 1.3723 Acc: 0.2524 AUC: 0.4885 Recall: 0.2487 Precision: 0.0887 F1: 0.1048
+val Loss: 1.4902 Acc: 0.1613 AUC: 0.6103 Recall: 0.2500 Precision: 0.0403 F1: 0.0694
+Epoch 18/24
+----------
+train Loss: 1.3572 Acc: 0.2443 AUC: 0.4968 Recall: 0.2499 Precision: 0.1236 F1: 0.1011
+val Loss: 1.4909 Acc: 0.1613 AUC: 0.5485 Recall: 0.2500 Precision: 0.0403 F1: 0.0694
+Epoch 19/24
+----------
+train Loss: 1.3700 Acc: 0.2233 AUC: 0.4922 Recall: 0.2447 Precision: 0.0565 F1: 0.0918
+val Loss: 1.4897 Acc: 0.1613 AUC: 0.4156 Recall: 0.2500 Precision: 0.0403 F1: 0.0694
+Epoch 20/24
+----------
+train Loss: 1.3593 Acc: 0.2362 AUC: 0.5087 Recall: 0.2520 Precision: 0.1288 F1: 0.1174
+val Loss: 1.4896 Acc: 0.1613 AUC: 0.5000 Recall: 0.2500 Precision: 0.0403 F1: 0.0694
+Epoch 21/24
+----------
+train Loss: 1.3491 Acc: 0.2362 AUC: 0.4714 Recall: 0.2351 Precision: 0.1067 F1: 0.1202
+val Loss: 1.4898 Acc: 0.1613 AUC: 0.5961 Recall: 0.2500 Precision: 0.0403 F1: 0.0694
+Epoch 22/24
+----------
+train Loss: 1.3479 Acc: 0.2767 AUC: 0.4949 Recall: 0.2550 Precision: 0.1340 F1: 0.1530
+val Loss: 1.4901 Acc: 0.1613 AUC: 0.5485 Recall: 0.2500 Precision: 0.0403 F1: 0.0694
+Epoch 23/24
+----------
+train Loss: 1.3495 Acc: 0.2508 AUC: 0.4743 Recall: 0.2335 Precision: 0.1176 F1: 0.1397
+val Loss: 1.4903 Acc: 0.1613 AUC: 0.4750 Recall: 0.2500 Precision: 0.0403 F1: 0.0694
+Epoch 24/24
+----------
+train Loss: 1.3661 Acc: 0.2136 AUC: 0.5058 Recall: 0.2329 Precision: 0.1027 F1: 0.1250
+val Loss: 1.4904 Acc: 0.1613 AUC: 0.5000 Recall: 0.2500 Precision: 0.0403 F1: 0.0694
+Training complete in 1m 1s
+Best val F1: 0.5511
+Fold 3/5
+Epoch 0/24
+----------
+train Loss: 0.9682 Acc: 0.5113 AUC: 0.7764 Recall: 0.5108 Precision: 0.4900 F1: 0.4896
+val Loss: 0.8927 Acc: 0.6065 AUC: 0.8167 Recall: 0.5083 Precision: 0.5075 F1: 0.4979
+Epoch 1/24
+----------
+train Loss: 0.7121 Acc: 0.6456 AUC: 0.8585 Recall: 0.6467 Precision: 0.6382 F1: 0.6378
+val Loss: 0.8171 Acc: 0.6258 AUC: 0.8751 Recall: 0.6003 Precision: 0.6868 F1: 0.5646
+Epoch 2/24
+----------
+train Loss: 0.8507 Acc: 0.6003 AUC: 0.8335 Recall: 0.6110 Precision: 0.6105 F1: 0.5925
+val Loss: 1.1019 Acc: 0.3355 AUC: 0.7646 Recall: 0.4698 Precision: 0.6355 F1: 0.3479
+Epoch 3/24
+----------
+train Loss: 0.8930 Acc: 0.5210 AUC: 0.7890 Recall: 0.5265 Precision: 0.5361 F1: 0.4991
+val Loss: 0.9814 Acc: 0.5097 AUC: 0.8590 Recall: 0.5257 Precision: 0.3714 F1: 0.4193
+Epoch 4/24
+----------
+train Loss: 1.2376 Acc: 0.4579 AUC: 0.7113 Recall: 0.4690 Precision: 0.4637 F1: 0.4569
+val Loss: 1.3194 Acc: 0.3613 AUC: 0.7031 Recall: 0.4410 Precision: 0.3072 F1: 0.3089
+Epoch 5/24
+----------
+train Loss: 6.6125 Acc: 0.3107 AUC: 0.5551 Recall: 0.3047 Precision: 0.3087 F1: 0.2864
+val Loss: 2.7362 Acc: 0.2129 AUC: 0.7471 Recall: 0.2500 Precision: 0.0532 F1: 0.0878
+Epoch 6/24
+----------
+train Loss: 1.5011 Acc: 0.2848 AUC: 0.5393 Recall: 0.2712 Precision: 0.3001 F1: 0.2198
+val Loss: 1.4090 Acc: 0.2129 AUC: 0.6777 Recall: 0.2500 Precision: 0.0532 F1: 0.0878
+Epoch 7/24
+----------
+train Loss: 1.3569 Acc: 0.2476 AUC: 0.5544 Recall: 0.2605 Precision: 0.1654 F1: 0.1777
+val Loss: 1.1793 Acc: 0.4258 AUC: 0.6994 Recall: 0.4091 Precision: 0.3232 F1: 0.3173
+Epoch 8/24
+----------
+train Loss: 1.5779 Acc: 0.3010 AUC: 0.5830 Recall: 0.3234 Precision: 0.3124 F1: 0.2764
+val Loss: 1.6067 Acc: 0.2129 AUC: 0.7003 Recall: 0.2500 Precision: 0.0532 F1: 0.0878
+Epoch 9/24
+----------
+train Loss: 1.3169 Acc: 0.2460 AUC: 0.6123 Recall: 0.2484 Precision: 0.0618 F1: 0.0990
+val Loss: 1.3547 Acc: 0.2129 AUC: 0.6562 Recall: 0.2500 Precision: 0.0532 F1: 0.0878
+Epoch 10/24
+----------
+train Loss: 1.2157 Acc: 0.2864 AUC: 0.6978 Recall: 0.2847 Precision: 0.1707 F1: 0.1591
+val Loss: 1.5055 Acc: 0.2903 AUC: 0.3048 Recall: 0.2500 Precision: 0.0726 F1: 0.1125
+Epoch 11/24
+----------
+train Loss: 1.3564 Acc: 0.2573 AUC: 0.5463 Recall: 0.2600 Precision: 0.1574 F1: 0.1535
+val Loss: 1.3902 Acc: 0.4710 AUC: 0.6100 Recall: 0.4722 Precision: 0.2518 F1: 0.3266
+Epoch 12/24
+----------
+train Loss: 1.2321 Acc: 0.3172 AUC: 0.6894 Recall: 0.3198 Precision: 0.1637 F1: 0.1984
+val Loss: 1.5169 Acc: 0.2903 AUC: 0.6421 Recall: 0.2500 Precision: 0.0726 F1: 0.1125
+Epoch 13/24
+----------
+train Loss: 1.0754 Acc: 0.4385 AUC: 0.7101 Recall: 0.4200 Precision: 0.2874 F1: 0.3150
+val Loss: 1.3217 Acc: 0.4903 AUC: 0.7636 Recall: 0.4848 Precision: 0.3209 F1: 0.3669
+Epoch 14/24
+----------
+train Loss: 0.9338 Acc: 0.4773 AUC: 0.7387 Recall: 0.4792 Precision: 0.4756 F1: 0.4183
+val Loss: 1.0301 Acc: 0.5097 AUC: 0.8154 Recall: 0.5257 Precision: 0.3988 F1: 0.4227
+Epoch 15/24
+----------
+train Loss: 0.9365 Acc: 0.4337 AUC: 0.7224 Recall: 0.4757 Precision: 0.4203 F1: 0.4114
+val Loss: 0.9032 Acc: 0.5032 AUC: 0.8250 Recall: 0.5000 Precision: 0.3237 F1: 0.3763
+Epoch 16/24
+----------
+train Loss: 0.8544 Acc: 0.4838 AUC: 0.7678 Recall: 0.4972 Precision: 0.5215 F1: 0.4004
+val Loss: 0.9094 Acc: 0.5032 AUC: 0.8361 Recall: 0.5000 Precision: 0.3237 F1: 0.3763
+Epoch 17/24
+----------
+train Loss: 0.8118 Acc: 0.5405 AUC: 0.7910 Recall: 0.5371 Precision: 0.5014 F1: 0.4864
+val Loss: 0.8885 Acc: 0.5290 AUC: 0.8444 Recall: 0.5812 Precision: 0.6534 F1: 0.4733
+Epoch 18/24
+----------
+train Loss: 0.7884 Acc: 0.5615 AUC: 0.8015 Recall: 0.5744 Precision: 0.5679 F1: 0.5585
+val Loss: 0.9801 Acc: 0.5226 AUC: 0.8377 Recall: 0.5872 Precision: 0.4012 F1: 0.4667
+Epoch 19/24
+----------
+train Loss: 0.8328 Acc: 0.5340 AUC: 0.7912 Recall: 0.5442 Precision: 0.5235 F1: 0.5259
+val Loss: 1.0116 Acc: 0.5032 AUC: 0.8297 Recall: 0.4965 Precision: 0.4497 F1: 0.3821
+Epoch 20/24
+----------
+train Loss: 0.8259 Acc: 0.5469 AUC: 0.7915 Recall: 0.5464 Precision: 0.5140 F1: 0.5025
+val Loss: 0.8202 Acc: 0.7290 AUC: 0.8602 Recall: 0.6260 Precision: 0.5865 F1: 0.6047
+Epoch 21/24
+----------
+train Loss: 0.8450 Acc: 0.5162 AUC: 0.7817 Recall: 0.5285 Precision: 0.5170 F1: 0.4898
+val Loss: 0.9831 Acc: 0.5097 AUC: 0.8482 Recall: 0.5237 Precision: 0.4264 F1: 0.4235
+Epoch 22/24
+----------
+train Loss: 0.7864 Acc: 0.5405 AUC: 0.7956 Recall: 0.5319 Precision: 0.5095 F1: 0.4899
+val Loss: 0.8459 Acc: 0.5290 AUC: 0.8589 Recall: 0.6215 Precision: 0.6739 F1: 0.4929
+Epoch 23/24
+----------
+train Loss: 0.7811 Acc: 0.5680 AUC: 0.8087 Recall: 0.5864 Precision: 0.5670 F1: 0.5553
+val Loss: 0.8456 Acc: 0.5355 AUC: 0.8592 Recall: 0.6371 Precision: 0.6815 F1: 0.5012
+Epoch 24/24
+----------
+train Loss: 0.7544 Acc: 0.5922 AUC: 0.8167 Recall: 0.5770 Precision: 0.5686 F1: 0.5662
+val Loss: 0.8478 Acc: 0.5226 AUC: 0.8604 Recall: 0.6058 Precision: 0.6664 F1: 0.4845
+Training complete in 1m 0s
+Best val F1: 0.6047
+Fold 4/5
+Epoch 0/24
+----------
+train Loss: 1.1902 Acc: 0.4394 AUC: 0.6952 Recall: 0.4397 Precision: 0.4297 F1: 0.4168
+val Loss: 1.2727 Acc: 0.4675 AUC: 0.8204 Recall: 0.5097 Precision: 0.3542 F1: 0.3860
+Epoch 1/24
+----------
+train Loss: 0.8431 Acc: 0.5767 AUC: 0.7998 Recall: 0.5704 Precision: 0.5919 F1: 0.5443
+val Loss: 1.1685 Acc: 0.5000 AUC: 0.8471 Recall: 0.5781 Precision: 0.4149 F1: 0.4615
+Epoch 2/24
+----------
+train Loss: 0.7871 Acc: 0.6220 AUC: 0.8365 Recall: 0.6124 Precision: 0.6110 F1: 0.5735
+val Loss: 0.9516 Acc: 0.4740 AUC: 0.8408 Recall: 0.4973 Precision: 0.5390 F1: 0.3783
+Epoch 3/24
+----------
+train Loss: 0.9135 Acc: 0.5363 AUC: 0.7917 Recall: 0.5181 Precision: 0.5304 F1: 0.4868
+val Loss: 1.2123 Acc: 0.4610 AUC: 0.7563 Recall: 0.4940 Precision: 0.3090 F1: 0.3641
+Epoch 4/24
+----------
+train Loss: 1.0031 Acc: 0.5137 AUC: 0.7565 Recall: 0.5030 Precision: 0.4808 F1: 0.4732
+val Loss: 0.9784 Acc: 0.4481 AUC: 0.7924 Recall: 0.4821 Precision: 0.2860 F1: 0.3465
+Epoch 5/24
+----------
+train Loss: 0.9219 Acc: 0.4943 AUC: 0.7206 Recall: 0.4744 Precision: 0.3880 F1: 0.3795
+val Loss: 1.6044 Acc: 0.3247 AUC: 0.7895 Recall: 0.5238 Precision: 0.3509 F1: 0.3276
+Epoch 6/24
+----------
+train Loss: 0.8815 Acc: 0.4976 AUC: 0.7612 Recall: 0.4787 Precision: 0.4694 F1: 0.4547
+val Loss: 1.4540 Acc: 0.3052 AUC: 0.6601 Recall: 0.2940 Precision: 0.3197 F1: 0.1918
+Epoch 7/24
+----------
+train Loss: 1.0114 Acc: 0.4588 AUC: 0.6865 Recall: 0.4593 Precision: 0.4409 F1: 0.4165
+val Loss: 1.0597 Acc: 0.4351 AUC: 0.7148 Recall: 0.4702 Precision: 0.2727 F1: 0.3352
+Epoch 8/24
+----------
+train Loss: 0.8926 Acc: 0.5024 AUC: 0.7372 Recall: 0.5009 Precision: 0.5176 F1: 0.4416
+val Loss: 1.0501 Acc: 0.2987 AUC: 0.7975 Recall: 0.5000 Precision: 0.2369 F1: 0.2840
+Epoch 9/24
+----------
+train Loss: 0.8557 Acc: 0.5008 AUC: 0.7381 Recall: 0.4888 Precision: 0.3937 F1: 0.4160
+val Loss: 1.3837 Acc: 0.4481 AUC: 0.7802 Recall: 0.4821 Precision: 0.2860 F1: 0.3465
+Epoch 10/24
+----------
+train Loss: 0.8842 Acc: 0.5105 AUC: 0.7473 Recall: 0.5067 Precision: 0.4117 F1: 0.4384
+val Loss: 1.0332 Acc: 0.4481 AUC: 0.7924 Recall: 0.4821 Precision: 0.2860 F1: 0.3465
+Epoch 11/24
+----------
+train Loss: 0.8533 Acc: 0.4927 AUC: 0.7449 Recall: 0.5086 Precision: 0.4179 F1: 0.4481
+val Loss: 1.2663 Acc: 0.4481 AUC: 0.8119 Recall: 0.4821 Precision: 0.2860 F1: 0.3465
+Epoch 12/24
+----------
+train Loss: 0.8200 Acc: 0.5073 AUC: 0.7569 Recall: 0.5008 Precision: 0.4142 F1: 0.4321
+val Loss: 0.9886 Acc: 0.4481 AUC: 0.8110 Recall: 0.4821 Precision: 0.2860 F1: 0.3465
+Epoch 13/24
+----------
+train Loss: 0.7877 Acc: 0.4960 AUC: 0.7764 Recall: 0.4991 Precision: 0.4388 F1: 0.3914
+val Loss: 1.0321 Acc: 0.3377 AUC: 0.7825 Recall: 0.4874 Precision: 0.3114 F1: 0.3508
+Epoch 14/24
+----------
+train Loss: 0.8227 Acc: 0.5234 AUC: 0.7769 Recall: 0.5044 Precision: 0.4047 F1: 0.4462
+val Loss: 1.0902 Acc: 0.4481 AUC: 0.8063 Recall: 0.4821 Precision: 0.2860 F1: 0.3465
+Epoch 15/24
+----------
+train Loss: 0.8036 Acc: 0.4782 AUC: 0.7553 Recall: 0.4959 Precision: 0.5166 F1: 0.3910
+val Loss: 1.0405 Acc: 0.4481 AUC: 0.8026 Recall: 0.4821 Precision: 0.2814 F1: 0.3440
+Epoch 16/24
+----------
+train Loss: 0.7351 Acc: 0.5428 AUC: 0.7829 Recall: 0.5115 Precision: 0.4224 F1: 0.4593
+val Loss: 1.0451 Acc: 0.3506 AUC: 0.7939 Recall: 0.5261 Precision: 0.6643 F1: 0.3587
+Epoch 17/24
+----------
+train Loss: 0.7517 Acc: 0.5347 AUC: 0.8136 Recall: 0.5254 Precision: 0.5091 F1: 0.4830
+val Loss: 0.9331 Acc: 0.6169 AUC: 0.8180 Recall: 0.5785 Precision: 0.4919 F1: 0.4974
+Epoch 18/24
+----------
+train Loss: 0.7410 Acc: 0.5557 AUC: 0.8145 Recall: 0.5327 Precision: 0.5933 F1: 0.4642
+val Loss: 0.8696 Acc: 0.5974 AUC: 0.8105 Recall: 0.5476 Precision: 0.4643 F1: 0.4934
+Epoch 19/24
+----------
+train Loss: 0.7253 Acc: 0.5638 AUC: 0.8332 Recall: 0.5751 Precision: 0.5412 F1: 0.5085
+val Loss: 0.8569 Acc: 0.5844 AUC: 0.8300 Recall: 0.5487 Precision: 0.4773 F1: 0.4898
+Epoch 20/24
+----------
+train Loss: 0.7297 Acc: 0.5590 AUC: 0.8230 Recall: 0.5561 Precision: 0.5164 F1: 0.5200
+val Loss: 0.8432 Acc: 0.6494 AUC: 0.8236 Recall: 0.6123 Precision: 0.5889 F1: 0.5877
+Epoch 21/24
+----------
+train Loss: 0.6470 Acc: 0.6220 AUC: 0.8641 Recall: 0.6242 Precision: 0.6017 F1: 0.5926
+val Loss: 0.8590 Acc: 0.4675 AUC: 0.8353 Recall: 0.6064 Precision: 0.3916 F1: 0.4520
+Epoch 22/24
+----------
+train Loss: 0.6259 Acc: 0.6300 AUC: 0.8717 Recall: 0.6413 Precision: 0.6409 F1: 0.5752
+val Loss: 0.8341 Acc: 0.4675 AUC: 0.8389 Recall: 0.6042 Precision: 0.6434 F1: 0.4577
+Epoch 23/24
+----------
+train Loss: 0.6884 Acc: 0.6155 AUC: 0.8532 Recall: 0.6366 Precision: 0.6306 F1: 0.5836
+val Loss: 0.8217 Acc: 0.4870 AUC: 0.8399 Recall: 0.6156 Precision: 0.6643 F1: 0.4897
+Epoch 24/24
+----------
+train Loss: 0.6627 Acc: 0.6010 AUC: 0.8510 Recall: 0.6221 Precision: 0.5899 F1: 0.5755
+val Loss: 0.8211 Acc: 0.4805 AUC: 0.8405 Recall: 0.6118 Precision: 0.6597 F1: 0.4807
+Training complete in 1m 0s
+Best val F1: 0.5877
+Fold 5/5
+Epoch 0/24
+----------
+train Loss: 1.1071 Acc: 0.4733 AUC: 0.7352 Recall: 0.4835 Precision: 0.4618 F1: 0.4489
+val Loss: 0.6598 Acc: 0.6948 AUC: 0.8835 Recall: 0.6207 Precision: 0.6655 F1: 0.6285
+Epoch 1/24
+----------
+train Loss: 0.7679 Acc: 0.6268 AUC: 0.8401 Recall: 0.6295 Precision: 0.6240 F1: 0.6204
+val Loss: 0.7910 Acc: 0.5325 AUC: 0.8779 Recall: 0.5500 Precision: 0.5808 F1: 0.4690
+Epoch 2/24
+----------
+train Loss: 0.6187 Acc: 0.7044 AUC: 0.8850 Recall: 0.6921 Precision: 0.6919 F1: 0.6718
+val Loss: 1.0479 Acc: 0.5649 AUC: 0.8867 Recall: 0.6318 Precision: 0.5912 F1: 0.5244
+Epoch 3/24
+----------
+train Loss: 1.2771 Acc: 0.3796 AUC: 0.6594 Recall: 0.3861 Precision: 0.4083 F1: 0.3846
+val Loss: 1.8269 Acc: 0.3052 AUC: 0.7464 Recall: 0.2500 Precision: 0.0763 F1: 0.1169
+Epoch 4/24
+----------
+train Loss: 2.0024 Acc: 0.2666 AUC: 0.5115 Recall: 0.2655 Precision: 0.2531 F1: 0.2320
+val Loss: 1.3883 Acc: 0.3052 AUC: 0.7348 Recall: 0.2500 Precision: 0.0763 F1: 0.1169
+Epoch 5/24
+----------
+train Loss: 1.4298 Acc: 0.2811 AUC: 0.5239 Recall: 0.2614 Precision: 0.1382 F1: 0.1764
+val Loss: 1.4163 Acc: 0.1558 AUC: 0.4611 Recall: 0.2500 Precision: 0.0390 F1: 0.0674
+Epoch 6/24
+----------
+train Loss: 1.3435 Acc: 0.3183 AUC: 0.5613 Recall: 0.2763 Precision: 0.1901 F1: 0.1803
+val Loss: 2.6280 Acc: 0.1299 AUC: 0.5723 Recall: 0.2865 Precision: 0.0620 F1: 0.1007
+Epoch 7/24
+----------
+train Loss: 1.3560 Acc: 0.3021 AUC: 0.5358 Recall: 0.2753 Precision: 0.2521 F1: 0.2013
+val Loss: 1.0955 Acc: 0.3052 AUC: 0.7999 Recall: 0.2500 Precision: 0.0763 F1: 0.1169
+Epoch 8/24
+----------
+train Loss: 1.1038 Acc: 0.4184 AUC: 0.7001 Recall: 0.4173 Precision: 0.3173 F1: 0.3103
+val Loss: 1.0820 Acc: 0.4351 AUC: 0.8110 Recall: 0.4583 Precision: 0.2144 F1: 0.2871
+Epoch 9/24
+----------
+train Loss: 1.2618 Acc: 0.3780 AUC: 0.6616 Recall: 0.3862 Precision: 0.3418 F1: 0.3366
+val Loss: 1.3080 Acc: 0.3896 AUC: 0.8122 Recall: 0.3854 Precision: 0.1789 F1: 0.2443
+Epoch 10/24
+----------
+train Loss: 1.2736 Acc: 0.3813 AUC: 0.6698 Recall: 0.3923 Precision: 0.2821 F1: 0.3148
+val Loss: 1.3968 Acc: 0.3052 AUC: 0.6823 Recall: 0.2500 Precision: 0.0763 F1: 0.1169
+Epoch 11/24
+----------
+train Loss: 1.3501 Acc: 0.3134 AUC: 0.6339 Recall: 0.3332 Precision: 0.2397 F1: 0.2604
+val Loss: 1.6208 Acc: 0.3052 AUC: 0.4045 Recall: 0.2500 Precision: 0.0763 F1: 0.1169
+Epoch 12/24
+----------
+train Loss: 1.3652 Acc: 0.2908 AUC: 0.5269 Recall: 0.2688 Precision: 0.1433 F1: 0.1847
+val Loss: 1.4717 Acc: 0.1558 AUC: 0.6108 Recall: 0.2500 Precision: 0.0390 F1: 0.0674
+Epoch 13/24
+----------
+train Loss: 1.3033 Acc: 0.3748 AUC: 0.6407 Recall: 0.3791 Precision: 0.3901 F1: 0.2699
+val Loss: 1.4260 Acc: 0.1234 AUC: 0.6340 Recall: 0.2762 Precision: 0.2980 F1: 0.0874
+Epoch 14/24
+----------
+train Loss: 1.2019 Acc: 0.3764 AUC: 0.6357 Recall: 0.3692 Precision: 0.2797 F1: 0.2852
+val Loss: 1.4790 Acc: 0.2597 AUC: 0.5745 Recall: 0.3300 Precision: 0.2784 F1: 0.2026
+Epoch 15/24
+----------
+train Loss: 1.0299 Acc: 0.4491 AUC: 0.7078 Recall: 0.4439 Precision: 0.3495 F1: 0.3807
+val Loss: 0.9980 Acc: 0.4481 AUC: 0.8007 Recall: 0.4792 Precision: 0.2692 F1: 0.3198
+Epoch 16/24
+----------
+train Loss: 0.9131 Acc: 0.4750 AUC: 0.7208 Recall: 0.4887 Precision: 0.3850 F1: 0.4179
+val Loss: 1.0009 Acc: 0.4481 AUC: 0.8088 Recall: 0.4792 Precision: 0.2879 F1: 0.3282
+Epoch 17/24
+----------
+train Loss: 0.8676 Acc: 0.4717 AUC: 0.7345 Recall: 0.4752 Precision: 0.5558 F1: 0.4229
+val Loss: 0.9269 Acc: 0.4481 AUC: 0.8004 Recall: 0.4792 Precision: 0.2879 F1: 0.3282
+Epoch 18/24
+----------
+train Loss: 0.7296 Acc: 0.5638 AUC: 0.7861 Recall: 0.4922 Precision: 0.4232 F1: 0.3878
+val Loss: 1.0816 Acc: 0.4481 AUC: 0.7955 Recall: 0.4792 Precision: 0.2879 F1: 0.3282
+Epoch 19/24
+----------
+train Loss: 0.8213 Acc: 0.5137 AUC: 0.7749 Recall: 0.5148 Precision: 0.5029 F1: 0.4426
+val Loss: 0.8309 Acc: 0.5325 AUC: 0.8177 Recall: 0.5143 Precision: 0.4753 F1: 0.4227
+Epoch 20/24
+----------
+train Loss: 0.8220 Acc: 0.5347 AUC: 0.7701 Recall: 0.5267 Precision: 0.5113 F1: 0.4882
+val Loss: 0.8969 Acc: 0.4481 AUC: 0.8018 Recall: 0.4792 Precision: 0.2879 F1: 0.3282
+Epoch 21/24
+----------
+train Loss: 0.8211 Acc: 0.5250 AUC: 0.7481 Recall: 0.5052 Precision: 0.4596 F1: 0.4162
+val Loss: 0.9576 Acc: 0.4545 AUC: 0.8199 Recall: 0.4948 Precision: 0.3728 F1: 0.3566
+Epoch 22/24
+----------
+train Loss: 0.8012 Acc: 0.5170 AUC: 0.7631 Recall: 0.5200 Precision: 0.4376 F1: 0.4271
+val Loss: 0.9794 Acc: 0.4545 AUC: 0.8231 Recall: 0.4948 Precision: 0.3406 F1: 0.3555
+Epoch 23/24
+----------
+train Loss: 0.8164 Acc: 0.5121 AUC: 0.7822 Recall: 0.5292 Precision: 0.4218 F1: 0.4495
+val Loss: 0.9669 Acc: 0.4610 AUC: 0.8241 Recall: 0.5104 Precision: 0.3548 F1: 0.3756
+Epoch 24/24
+----------
+train Loss: 0.8281 Acc: 0.5137 AUC: 0.7520 Recall: 0.5247 Precision: 0.4237 F1: 0.4518
+val Loss: 0.9629 Acc: 0.4675 AUC: 0.8229 Recall: 0.5260 Precision: 0.3685 F1: 0.3932
+Training complete in 0m 57s
+Best val F1: 0.6285
+Cross-validation metrics saved to 'vgg19_cv_metrics_CT.csv'.
+Evaluating on the test set...
+Test metrics saved to 'vgg19_test_metrics_CT.csv'.
+Test Loss: 0.9894 Acc: 0.5155 AUC: 0.7936 Recall: 0.5327 Precision: 0.6579 F1: 0.5009
+

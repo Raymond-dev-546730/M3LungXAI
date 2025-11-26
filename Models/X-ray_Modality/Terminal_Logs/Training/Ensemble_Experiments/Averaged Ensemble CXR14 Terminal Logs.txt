@@ -1,0 +1,59 @@
+Fold 1/5
+----------
+Fold 1 Metrics:
+AUC: 0.9232
+F1 Score: 0.7115
+Precision: 0.6717
+Recall: 0.7563
+Accuracy: 0.8403
+
+Fold 2/5
+----------
+Fold 2 Metrics:
+AUC: 0.9221
+F1 Score: 0.7066
+Precision: 0.6661
+Recall: 0.7522
+Accuracy: 0.8424
+
+Fold 3/5
+----------
+Fold 3 Metrics:
+AUC: 0.9243
+F1 Score: 0.7086
+Precision: 0.6700
+Recall: 0.7520
+Accuracy: 0.8433
+
+Fold 4/5
+----------
+Fold 4 Metrics:
+AUC: 0.9255
+F1 Score: 0.7071
+Precision: 0.6665
+Recall: 0.7530
+Accuracy: 0.8370
+
+Fold 5/5
+----------
+Fold 5 Metrics:
+AUC: 0.9228
+F1 Score: 0.7090
+Precision: 0.6687
+Recall: 0.7545
+Accuracy: 0.8378
+
+Average Cross-Validation Results:
+Average AUC: 0.9236 ± 0.0012
+Average F1 Score: 0.7085 ± 0.0017
+Average Precision: 0.6686 ± 0.0021
+Average Recall: 0.7536 ± 0.0016
+Average Accuracy: 0.8402 ± 0.0025
+
+Evaluating on the test set
+Test AUC: 0.9218
+Test F1: 0.7068
+Test Precision: 0.6660
+Test Recall: 0.7529
+Test Accuracy: 0.8360
+
