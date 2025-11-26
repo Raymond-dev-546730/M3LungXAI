@@ -1,0 +1,111 @@
+~~~
+M3LungXAI/
+├── Deployment/
+│   ├── DEPLOY_CT_SCAN.py
+│   ├── DEPLOY_MULTIMODAL.py
+│   ├── DEPLOY_SYMPTOM.py
+│   ├── DEPLOY_X_RAY.py
+│   ├── PROCESS_CT_SCAN.py
+│   ├── PROCESS_X_RAY.py
+│   └── SYMPTOM_DATASET.json
+│
+└── Models/
+    ├── CT_scan_Modality/
+    │   ├── Scripts/
+    │   │   ├── Inference_Evaluation/
+    │   │   │   └── MobileNetV2_CT_scan_ROC.py
+    │   │   ├── Preprocessing/
+    │   │   │   └── CT_scan_Preprocessing.py
+    │   │   └── Training/
+    │   │       ├── DenseNet121_CT_scan.py
+    │   │       ├── MobileNetV2_CT_scan.py
+    │   │       ├── ResNet50_CT_scan.py
+    │   │       ├── SqueezeNet_1.1_CT_scan.py
+    │   │       └── VGG19_CT_scan.py
+    │   └── Terminal_Logs/
+    │       ├── Inference_Evaluation/
+    │       │   └── MobileNetV2 CT scan ROC Terminal Logs.txt
+    │       └── Training/
+    │           ├── DenseNet121 CT scan Terminal Logs.txt
+    │           ├── MobileNetV2 CT scan Terminal Logs.txt
+    │           ├── ResNet50 CT scan Terminal Logs.txt
+    │           ├── SqueezeNet 1.1 CT scan Terminal Logs.txt
+    │           └── VGG19 CT scan Terminal Logs.txt
+    │
+    ├── Xray_Modality/
+    │   ├── Scripts/
+    │   │   ├── Inference_Evaluation/
+    │   │   │   └── Ensemble_Model_CXR14_ROC.py
+    │   │   ├── Preprocessing/
+    │   │   │   └── CXR14_Preprocessing.py
+    │   │   └── Training/
+    │   │       ├── Ensemble_Experiments/
+    │   │       │   ├── Averaged_Ensemble_CXR14.py
+    │   │       │   ├── Averaged_Meta-Models-Ensemble_CXR14.py
+    │   │       │   └── LogisticRegression_Meta-Models-Ensemble_CXR14.py
+    │   │       ├── Final_Model/
+    │   │       │   └── Ensemble_Model_CXR14.py
+    │   │       ├── Stage1_Base_CNNs/
+    │   │       │   ├── ConvNeXtTiny_CXR14.py
+    │   │       │   ├── DenseNet121_CXR14.py
+    │   │       │   ├── EfficientNetV2-S_CXR14.py
+    │   │       │   └── ResNet18_CXR14.py
+    │   │       └── Stage2_Meta_Learners/
+    │   │           ├── Base_Features/
+    │   │           │   ├── GradientBoosting_Base-features_Ensemble_CXR14.py
+    │   │           │   ├── LogisticRegression_Base-features_Ensemble_CXR14.py
+    │   │           │   ├── MLP_Base-features_Ensemble_CXR14.py
+    │   │           │   ├── RandomForest_Base-features_Ensemble_CXR14.py
+    │   │           │   └── SVM_Base-features_Ensemble_CXR14.py
+    │   │           └── Engineered_Features/
+    │   │               ├── GradientBoosting_Engineered-features_Ensemble_CXR14.py
+    │   │               ├── LogisticRegression_Engineered-features_Ensemble_CXR14.py
+    │   │               ├── MLP_Engineered-features_Ensemble_CXR14.py
+    │   │               ├── RandomForest_Engineered-features_Ensemble_CXR14.py
+    │   │               └── SVM_Engineered-features_Ensemble_CXR14.py
+    │   └── Terminal_Logs/
+    │       ├── Inference_Evaluation/
+    │       │   └── Ensemble Model CXR14 ROC Terminal Logs.txt
+    │       └── Training/
+    │           ├── Ensemble_Experiments/
+    │           │   ├── Averaged Ensemble CXR14 Terminal Logs.txt
+    │           │   ├── Averaged Meta-Models Ensemble CXR14 Terminal Logs.txt
+    │           │   └── LogisticRegression Meta-Models Ensemble CXR14 Terminal Logs.txt
+    │           ├── Final_Model/
+    │           │   └── Ensemble Model CXR14 Terminal Logs.txt
+    │           ├── Stage1_Base_CNNs/
+    │           │   ├── ConvNeXtTiny CXR14 Terminal Logs.txt
+    │           │   ├── DenseNet121 CXR14 Terminal Logs.txt
+    │           │   ├── EfficientNetV2-S CXR14 Terminal Logs.txt
+    │           │   └── ResNet18 CXR14 Terminal Logs.txt
+    │           └── Stage2_Meta_Learners/
+    │               ├── Base_Features/
+    │               │   ├── GradientBoosting Base-features Ensemble CXR14 Terminal Logs.txt
+    │               │   ├── LogisticRegression Base-features Ensemble CXR14 Terminal Logs.txt
+    │               │   ├── MLP Base-features Ensemble CXR14 Terminal Logs.txt
+    │               │   ├── RandomForest Base-features Ensemble CXR14 Terminal Logs.txt
+    │               │   └── SVM Base-features Ensemble CXR14 Terminal Logs.txt
+    │               └── Engineered_Features/
+    │                   ├── GradientBoosting Engineered-features Ensemble CXR14 Terminal Logs.txt
+    │                   ├── LogisticRegression Engineered-features Ensemble CXR14 Terminal Logs.txt
+    │                   ├── MLP Engineered-features Ensemble CXR14 Terminal Logs.txt
+    │                   ├── RandomForest Engineered-features Ensemble CXR14 Terminal Logs.txt
+    │                   └── SVM Engineered-features Ensemble CXR14 Terminal Logs.txt
+    │
+    └── Symptom_Modality/
+        ├── Scripts/
+        │   ├── Inference_Evaluation/
+        │   │   └── SM_ROC.py
+        │   ├── Synthetic_Notes_Generation/
+        │   │   ├── Generate_Clinical_Notes_SM.py
+        │   │   ├── patient_names.json
+        │   │   ├── symptom_constraints.json
+        │   │   └── symptom_synonyms.json
+        │   └── Training/
+        │       └── Train_SM.py
+        └── Terminal_Logs/
+            ├── Inference_Evaluation/
+            │   └── SM ROC Terminal Logs.txt
+            └── Training/
+                └── Train SM Terminal Logs.txt
+~~~
