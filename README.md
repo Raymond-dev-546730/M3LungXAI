@@ -17,7 +17,7 @@ M³LungXAI is the first fully open-source multimodal explainable lung cancer dia
 
 ## Demo
 
-![Demo Video](Demo.mp4)
+[Watch the demo video](./Demo.mp4)
 
 ## Repository Contents
 ~~~
