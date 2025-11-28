@@ -42,7 +42,7 @@ SYMPTOM_WEIGHTS = {
 }
 
 # Load the trained model and tokenizer
-model_path = "./Symptom_Modality/SpanBERT-SCM-Large"
+model_path = "./Symptom_Modality/SpanBERT-SM-Large"
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 model = AutoModelForTokenClassification.from_pretrained(model_path)
 
